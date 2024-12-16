@@ -1,23 +1,23 @@
-#define WORD_L LALT(LEFT)
-#define WORD_R LALT(RIGHT)
+#define WORD_L LA(LEFT)
+#define WORD_R LA(RIGHT)
 
-#define LINE_L LGUI(LBRC)
-#define LINE_R LGUI(RBRC)
+#define LINE_L LG(LBRC)
+#define LINE_R LG(RBRC)
 
-#define DEL_WRD LALT(BSPC)
+#define DEL_WRD LA(BSPC)
 
-#define TAB_L LCTRL(LSHFT(TAB))
-#define TAB_R LCTRL(TAB)
+#define TAB_L LC(LS(TAB))
+#define TAB_R LC(TAB)
 
-#define MCUT   LGUI(X)
-#define MCOPY  LGUI(C)
-#define MPASTE LGUI(V)
+#define MCUT   LG(X)
+#define MCOPY  LG(C)
+#define MPASTE LG(V)
 
-#define EMOJI LCTRL(LGUI(SPACE))
+#define EMOJI LC(LG(SPACE))
 
-#define CAP_LST LGUI(LSHFT(KC_7))        // Capture last screen region
-#define CAP_IMG LGUI(LSHFT(KC_6))        // Capture portion of screen
-#define CAP_MOV LGUI(LSHFT(KC_5))        // Capture video of screen
+#define CAP_LST LG(LS(N7))        // Capture last screen region
+#define CAP_IMG LG(LS(N6))        // Capture portion of screen
+#define CAP_MOV LG(LS(N5))        // Capture video of screen
 
-#define XBX_IMG LGUI(LALT(PSCRN))     // Capture portion of screen
-#define XBX_MOV LGUI(LALT(KC_G))        // Capture last 30 seconds
+#define XBX_IMG LG(LA(PSCRN))     // Capture portion of screen
+#define XBX_MOV LG(LA(G))        // Capture last 30 seconds
