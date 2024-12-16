@@ -105,7 +105,7 @@
 &trans  &trans  &trans     &trans         &trans       &trans                          &trans    &trans       &trans  &trans     &trans  &trans
 &trans  &trans  &trans     &kp WORD_R  &trans       &trans                          &trans    &kp PAGE_UP  &trans  &trans     &trans  &trans
 &trans  &trans  &trans     &kp PAGE_DOWN  &trans       &trans                          &kp LEFT  &kp DOWN     &kp UP  &kp RIGHT  &none   &trans
-&trans  &trans  &kp CUT  &kp COPY     &kp PASTE  &kp WORD_L  &trans    &trans  &trans    &trans       &trans  &trans     &trans  &trans
+&trans  &trans  &kp MCUT  &kp MCOPY     &kp MPASTE  &kp WORD_L  &trans    &trans  &trans    &trans       &trans  &trans     &trans  &trans
                            &trans         &trans       &trans        &trans    &trans  &trans    &trans       &trans
             >;
         };
