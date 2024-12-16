@@ -9,9 +9,9 @@
 #define TAB_L LCTRL(LSHFT(TAB))
 #define TAB_R LCTRL(TAB)
 
-#define CUT   LGUI(X)
-#define COPY  LGUI(C)
-#define PASTE LGUI(V)
+#define MCUT   LGUI(X)
+#define MCOPY  LGUI(C)
+#define MPASTE LGUI(V)
 
 #define EMOJI LCTRL(LGUI(SPACE))
 
