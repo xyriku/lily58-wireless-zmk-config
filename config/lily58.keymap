@@ -95,9 +95,9 @@ hhhh/*
         Nav {
             bindings = <
 &trans  &trans  &trans     &trans         &trans       &trans                          &trans    &trans       &trans  &trans     &trans  &trans
-&trans  &trans  &trans     &kp LC(RIGHT)  &trans       &trans                          &trans    &kp PAGE_UP  &trans  &trans     &trans  &trans
+&trans  &trans  &trans     &kp WORD_R  &trans       &trans                          &trans    &kp PAGE_UP  &trans  &trans     &trans  &trans
 &trans  &trans  &trans     &kp PAGE_DOWN  &trans       &trans                          &kp LEFT  &kp DOWN     &kp UP  &kp RIGHT  &none   &trans
-&trans  &trans  &kp K_CUT  &kp K_COPY     &kp K_PASTE  &kp LC(LEFT)  &trans    &trans  &trans    &trans       &trans  &trans     &trans  &trans
+&trans  &trans  &kp CUT  &kp COPY     &kp PASTE  &kp WORD_L  &trans    &trans  &trans    &trans       &trans  &trans     &trans  &trans
                            &trans         &trans       &trans        &trans    &trans  &trans    &trans       &trans
             >;
         };
