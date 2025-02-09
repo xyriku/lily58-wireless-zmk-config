@@ -1,17 +1,17 @@
-#define WORD_L LA(LEFT)
-#define WORD_R LA(RIGHT)
+#define WORD_L LC(LEFT)
+#define WORD_R LC(RIGHT)
 
 #define LINE_L LG(LBRC)
 #define LINE_R LG(RBRC)
 
-#define DEL_WRD LA(BSPC)
+#define DEL_WRD LC(BSPC)
 
 #define TAB_L LC(LS(TAB))
 #define TAB_R LC(TAB)
 
-#define MCUT   LG(X)
-#define MCOPY  LG(C)
-#define MPASTE LG(V)
+#define MCUT   LC(X)
+#define MCOPY  LC(C)
+#define MPASTE LC(V)
 
 #define EMOJI LC(LG(SPACE))
 
